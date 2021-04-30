@@ -1,6 +1,5 @@
-import React from 'react';
-import {useState} from 'react';
-import {useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
+import RNBootSplash from 'react-native-bootsplash';
 import {FlatList, View} from 'react-native';
 import {getData} from '../api';
 import SongItem from '../components/songItem';
@@ -15,6 +14,7 @@ const SongsScreen = ({navigation}) => {
     setIsLoading(false);
   };
   useEffect(() => {
+    RNBootSplash.hide();
     getSongs();
   }, []);
 

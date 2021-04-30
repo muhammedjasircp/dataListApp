@@ -19,6 +19,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		98725BFBDF1DDDB71F155294 /* libPods-dataListApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475A18577982B8B4A79B62B0 /* libPods-dataListApp-tvOSTests.a */; };
 		A4FD50EC6FEA62C2E5B1590C /* libPods-dataListApp-dataListAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B96D130E220234C7F5BA12 /* libPods-dataListApp-dataListAppTests.a */; };
+		EF214A44263BDE47005BF38D /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF214A43263BDE46005BF38D /* BootSplash.storyboard */; };
 		FF851D6D00B4BC1CDB728F73 /* libPods-dataListApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB6CEA80AB2BF515BE5A28 /* libPods-dataListApp-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		CAEB6CEA80AB2BF515BE5A28 /* libPods-dataListApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dataListApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF214A43263BDE46005BF38D /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = dataListApp/BootSplash.storyboard; sourceTree = "<group>"; };
 		F4B96D130E220234C7F5BA12 /* libPods-dataListApp-dataListAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dataListApp-dataListAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				EF214A43263BDE46005BF38D /* BootSplash.storyboard */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -161,7 +164,6 @@
 				19A6DAC20D09BC84B86C2846 /* Pods-dataListApp-tvOSTests.debug.xcconfig */,
 				6379FBEC1F71B7EE6F8D4793 /* Pods-dataListApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF214A44263BDE47005BF38D /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
